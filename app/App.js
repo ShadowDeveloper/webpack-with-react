@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+// Components
+import LoginForm from './components/loginForm';
+
 
 class App extends React.Component{
   render(){
-    return <h1>Hello world</h1> 
+    return <LoginForm color="#ccc"/>
   }
 }
 
