@@ -1,11 +1,11 @@
 module.exports = {
   entry: './app/App.js',
   output: {
-    path: __dirname + './public/',
-    filename: 'bundle.js'
+    filename: "bundle.js",
+    path: __dirname + "/public/js"
   },
-  devServer: {
-    inline: true, // ############## Hot Reload
+  devServer: { // ############## With Hot Reload
+    inline: true,
     contentBase: './public',
     port: 8080
   },
